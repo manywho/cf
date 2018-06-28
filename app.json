@@ -1,0 +1,25 @@
+{
+  "name": "Boomi Flow Cloud Foundry Service",
+  "description": "A microservice that integrates Boomi Flow with Cloud Foundry",
+  "repository": "https://github.com/manywho/service-cf",
+  "logo": "https://s3.amazonaws.com/manywho-service-assets/icons/service-cf.png",
+  "keywords": [
+    "manywho",
+    "boomi",
+    "cf"
+  ],
+  "env": {
+    "REDIS_URL": {
+      "description": "A Redis connection string that points to where data should be stored",
+      "required": true
+    },
+    "OAUTH_CLIENT_ID": {
+      "description": "The client id of the oauth client for Cloud Foundry",
+      "required": true
+    },
+    "OAUTH_CLIENT_SECRET": {
+      "description": "The client secret of the oauth client for Cloud Foundry",
+      "required": true
+    }
+  }
+}
