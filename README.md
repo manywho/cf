@@ -1,7 +1,7 @@
 Cloud Foundry Service
 =====================
 
-> This service is currently in development, and not yet recommended for use in production environments
+> This service is currently in development
 
 [![Build Status](https://travis-ci.org/manywho/service-cf.svg)](https://travis-ci.org/manywho/service-cf)
 
